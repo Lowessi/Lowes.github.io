@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a79b2589d4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="socials">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+      <!-- Topbar -->
+      <div class="topbar">
+        <div class="logo">LA</div>
+        <div class="line">|</div>
+
+        <!-- Hamburger Button -->
+        <div class="hamburger" id="hamburger">☰</div>
+
+        <!-- Nav Links -->
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Buttons -->
+        <div class="nav-actions">
+          <a class="btn">Hire Me</a>
+          <a class="btn">Resume</a>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+        <div class="hero-container">
+            <section id="home" class="hero">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span>Louise Awit</span></h1>
+                    <p>
+                    A passionate <strong>Web Developer</strong> crafting modern
+                    websites and applications.
+                    </p>
+                </div>
+                <!-- <div class="hero-image">
+                    <img src="ME-removebg-preview.png" alt="Louise Awit" />
+                    </div> 
+                </div> -->
+            </section>
+        <div class="separator fade-in"></div>
+
+        <!-- about section -->
+
+        <section id="about" class="section about-section">
+          <div class="about-container">
+            <h2>About Me</h2>
+            <div class="about-text">
+              <p>
+                Hi, I’m <strong>Louise Awit</strong>, an aspiring web developer
+                and tech enthusiast from
+                <strong>Talisay, Matag-ob, Leyte</strong>. I’m currently an
+                undergraduate at <strong>ACLC Ormoc</strong>, where I’ve been
+                honing my skills in
+                <em>HTML, CSS, JavaScript, and the MERN stack</em>.
+              </p>
+              <p>
+                I enjoy building clean, user-friendly, and functional web
+                applications. With a strong passion for continuous learning, I
+                take on projects that challenge me to grow as a developer while
+                delivering meaningful results.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- projects section -->
+
+        <section id="projects" class="section projects">
+          <h2>Projects</h2>
+          <div class="project-grid">
+            <div class="project-card">
+              <h3>Portfolio Website</h3>
+              <p>
+                A personal website showcasing my skills, projects, and
+                experience. Designed with a modern, responsive layout for
+                seamless viewing across devices. Features smooth navigation,
+                organized content sections, and a professional aesthetic to
+                highlight my work effectively.
+              </p>
+            </div>
+            <div class="project-card">
+              <h3>Freelance Platform</h3>
+              <p>
+                A full-stack platform that connects clients and freelancers.
+                Includes features such as job posting, profile management,
+                messaging, and secure authentication for a professional
+                networking experience.
+              </p>
+            </div>
+            <div class="project-card">
+              <h3>Chat App</h3>
+              <p>
+                A real-time messaging application with a clean interface,
+                enabling users to connect instantly. Built with modern web
+                technologies and designed for smooth, reliable communication.
+              </p>
+            </div>
+            <div class="project-card">
+              <h3>Snake3D Game</h3>
+              <p>
+                A fun, interactive 3D version of the classic Snake game.
+                Features engaging gameplay mechanics, immersive visuals, and
+                smooth performance.
+              </p>
+            </div>
+            <div class="project-card">
+              <h3>Workout Planner</h3>
+              <p>
+                A fitness-focused application that helps users create, organize,
+                and track personalized workout routines. Built with an intuitive
+                design for easy planning and progress tracking.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills Section -->
+
+        <section id="skills" class="section skills">
+          <h2>Skills</h2>
+          <div class="skill-grid">
+            <div class="skill-card">
+              <h3>Network Configuration</h3>
+              <p>
+                Proficient in setting up, configuring, and maintaining network
+                infrastructures. Skilled in troubleshooting connectivity issues,
+                optimizing performance, and ensuring secure and reliable
+                communication across devices..
+              </p>
+            </div>
+            <div class="skill-card">
+              <h3>Web Development</h3>
+              <p>
+                Experienced in designing and developing responsive,
+                user-friendly websites and applications. Comfortable working
+                with modern frameworks, front-end styling, and backend
+                integration to create smooth and functional web experiences.
+              </p>
+            </div>
+            <div class="skill-card">
+              <h3>Game Development</h3>
+              <p>
+                Knowledgeable in building interactive games, from concept design
+                to coding and deployment. Capable of implementing engaging
+                mechanics, graphics, and user interactions to deliver enjoyable
+                digital experiences.
+              </p>
+            </div>
+            <div class="skill-card">
+              <h3>Technical Support</h3>
+              <p>
+                Strong background in diagnosing and resolving technical issues
+                with hardware, software, and systems. Adept at providing
+                solutions, improving system efficiency, and ensuring smooth IT
+                operations for end-users.
+              </p>
+            </div>
+            <div class="skill-card">
+              <h3>Database Management</h3>
+              <p>
+                Skilled in designing, managing, and optimizing databases.
+                Experienced with creating schemas, writing queries, and ensuring
+                data accuracy, security, and efficient storage solutions for
+                applications.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section">
+          <h2>Contact</h2>
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-about">
+            <h3>Louise Awit</h3>
+            <p>
+              Freelance developer passionate about building modern web
+              solutions.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-socials">
+            <h4>Connect</h4>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2025 Wis Wit. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script>
+const hamburger = document.getElementById("hamburger");
+const navLinksContainer = document.getElementById("navLinks");
+const navLinks = document.querySelectorAll("#navLinks li a");
+
+// Toggle hamburger menu
+hamburger.addEventListener("click", () => {
+  navLinksContainer.classList.toggle("show");
+});
+
+// ✅ Scrollspy (only sections with IDs)
+const sections = document.querySelectorAll("section");
+
+window.addEventListener("scroll", () => {
+  let current = "";
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop - 70; // adjust for topbar height
+    const sectionHeight = section.clientHeight;
+    if (
+      pageYOffset >= sectionTop &&
+      pageYOffset < sectionTop + sectionHeight
+    ) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  navLinks.forEach((link) => {
+    link.classList.remove("active");
+    if (link.getAttribute("href") === "#" + current) {
+      link.classList.add("active");
+    }
+  });
+});
+
+// ✅ Animate cards on scroll
+const cards = document.querySelectorAll(".project-card, .skill-card");
+
+const cardObserver = new IntersectionObserver(
+  (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target); // animate once
+      }
+    });
+  },
+  { threshold: 0.2 }
+);
+
+cards.forEach((card) => cardObserver.observe(card));
+
+// ✅ Sidebar hide/show near footer
+const sidebar = document.querySelector(".sidebar");
+const footer = document.querySelector(".footer");
+
+window.addEventListener("scroll", () => {
+  const footerTop = footer.offsetTop;
+  const scrollBottom = window.scrollY + window.innerHeight;
+
+  if (scrollBottom >= footerTop) {
+    sidebar.style.opacity = 0;
+    sidebar.style.pointerEvents = "none";
+  } else {
+    sidebar.style.opacity = 1;
+    sidebar.style.pointerEvents = "auto";
+  }
+});
+
+// ✅ Separator animation (independent)
+// Separator animation (expand only when in view)
+const separator = document.querySelector(".separator");
+
+if (separator) {
+  const separatorObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          separator.classList.add("visible"); // expand
+        } else {
+          separator.classList.remove("visible"); // collapse when out of view
+        }
+      });
+    },
+    { threshold: 0.5 } // trigger when ~50% visible
+  );
+
+  separatorObserver.observe(separator);
+}
+
+  </script>
+</html>
